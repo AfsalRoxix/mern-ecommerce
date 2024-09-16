@@ -32,7 +32,7 @@ function createSearchParamsHelper(filterParams) {
     }
   }
 
-  console.log(queryParams, "queryParams");
+  // console.log(queryParams, "queryParams");
 
   return queryParams.join("&");
 }
@@ -84,7 +84,7 @@ function ShoppingListing() {
   }
 
   function handleAddtoCart(getCurrentProductId,getTotalStock) {
-    console.log(cartItems,'cartItems')
+    // console.log(cartItems,'cartItems')
     let getCartItems = cartItems.items || []
 
     if(getCartItems.length){
@@ -143,7 +143,7 @@ function ShoppingListing() {
   }, [productDetails]);
 
 
-  console.log(productList,'ProdList')
+  // console.log(productList,'ProdList')
   // console.log(productDetails,'productDetails');
 
   return (
